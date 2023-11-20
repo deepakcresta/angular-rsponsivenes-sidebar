@@ -1,0 +1,59 @@
+/* login.component.css */
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+}
+
+
+.table .table-light {
+  color: #495057;
+  border-color: #eff2f7;
+  background-color: #f8f9fa;
+}
+.table-bordered {
+  border: 1px solid #eff2f7;
+}
+.table > :not(:first-child) {
+  border-top: 0 solid #eff2f7;
+}
+.table-dark > :not(:last-child) > :last-child > * {
+  border-bottom-color: #43494e;
+}
+.table-nowrap td,
+.table-nowrap th {
+  white-space: nowrap;
+}
+.table-responsive::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.table-responsive::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+.table-responsive::-webkit-scrollbar:horizontal {
+  height: 9px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: rgba(52, 58, 64, 0.2);
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
