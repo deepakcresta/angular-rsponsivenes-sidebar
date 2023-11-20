@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { LoginFormComponent } from './login-form/login-form.component';
+import { FooterComponent } from './base-layout/footer/footer.component';
+import { HeaderComponent } from './base-layout/header/header.component';
+import { SidebarComponent } from './base-layout/sidebar/sidebar.component';
+import { LoginFormComponent } from './base-layout/login-form/login-form.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { BaseLayoutComponent } from './base-layout/base-layout.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     FooterComponent,
     HeaderComponent,
     SidebarComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    BaseLayoutComponent
   ],
   imports: [
     BrowserModule,
